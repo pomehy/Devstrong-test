@@ -316,7 +316,7 @@ body {
     height: 172px;
 }
 
-/* -------- section hit styles -------- */
+/* -------- section styles -------- */
 
 .section-padding {
     padding-top: 30px;
@@ -340,6 +340,8 @@ body {
     text-transform: uppercase;
     
 }
+
+/* -------- aside-banner -------- */
 
 .aside-banner {
     position: relative;
@@ -367,6 +369,9 @@ body {
     color: #ffffff;
     margin: 0; 
 }
+
+/* -------- hit styles -------- */
+
 .hit-head {
     display: flex;
     justify-content: space-between;
@@ -438,6 +443,9 @@ body {
 .control-next {
     margin-bottom: 4px;
 }
+
+/* -------- Карточка товара -------- */
+
 .product-card {
     position: relative; 
     -webkit-box-shadow: 0px 15px 20px -10px rgba(0, 0, 0, 0.15);
@@ -605,4 +613,27 @@ body {
 
 }
 
+.fresh-content {
+    padding-top: 20px;
+}
 
+.fresh-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aside-banner__discount {
+    position: absolute;
+    bottom: 25%;
+    right: 5%;
+}
+.banner__discount {
+    font-size: 90px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, .22);    
+}
+.fresh-banner__image {
+    position: absolute;
+    top: 0;
+    right: 10%;
+}
