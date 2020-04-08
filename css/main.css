@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Panton';
+    src: url('/fonts/Panton-Regular.eot');
+    src: url('/fonts/Panton-Regular.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Panton-Regular.woff2') format('woff2'),
+         url('/fonts/Panton-Regular.woff') format('woff'),
+         url('/fonts/Panton-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('/fonts/Panton-Bold.eot');
+    src: url('/fonts/Panton-Bold.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Panton-Bold.woff2') format('woff2'),
+         url('/fonts/Panton-Bold.woff') format('woff'),
+         url('/fonts/Panton-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('/fonts/Panton-SemiBold.eot');
+    src: url('/fonts/Panton-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Panton-SemiBold.woff2') format('woff2'),
+         url('/fonts/Panton-SemiBold.woff') format('woff'),
+         url('/fonts/Panton-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('/fonts/Panton-Black.eot');
+    src: url('/fonts/Panton-Black.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Panton-Black.woff2') format('woff2'),
+         url('/fonts/Panton-Black.woff') format('woff'),
+         url('/fonts/Panton-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+.color-link {
+    color: #009ee2;    
+}
+.color-link:hover {      
+    text-decoration: none;    
+}
+
+/* -------- header-top styles -------- */
+
+.header-top {    
+    background-color: #1d1e1e;        
+}
+.header-top-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header-top__list {
+    font-family: 'Panton', 'Arial', 'Helvetica', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+.header-top__item {
+    display: inline;    
+}
+.header-top__item--mark {
+    position: relative;
+    margin-left: 30px;
+}
+.header-top__item--mark:before {
+    line-height: 20px;
+    position: absolute;    
+    left: -20px;
+    font-size: 14px; 
+    font-weight: bold;
+    color: #ffffff;    
+    content: "\25CB";    
+}
+.header-top__link {
+    color: #ffffff;
+}
+.header-top__link:hover,
+.header-top__link:active,
+.header-top__link:focus {
+    color: #009ee2;
+    text-decoration: none;
+}
+.header-top__phone {
+    display: flex;
+    align-items: center;
+}
+.phone__text {
+    display: inline;
+    color: #ffffff;
+    font-family: 'Panton', 'Arial', 'Helvetica', sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    padding: 0 15px;
+    margin: 0;
+}
+.phone__number {    
+    display: inline;
+    font-family: 'Panton', 'Arial', 'Helvetica', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.phone__number:hover {
+    text-decoration: none;
+}
+
+/* -------- header-info styles -------- */
+
+.header-info {
+
+}
+
+.logo {
+    color: #0086c0;
+}
