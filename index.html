@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://use.fontawesome.com/2347039610.js"></script>
     <title>Тестовое задание DevStrong</title>
 </head>
 <body>
@@ -16,12 +17,15 @@
                     <li class="header-top__item ">
                         <a class="header-top__link" href="Dostavka.html">Доставка</a>
                     </li>
+                    <span class="header-top__circle">&#9675;</span>
                     <li class="header-top__item header-top__item--mark">
                         <a class="header-top__link" href="Oplata.html">Оплата</a>
                     </li>
+                    <span class="header-top__circle">&#9675;</span>
                     <li class="header-top__item header-top__item--mark">
                         <a class="header-top__link" href="vozvrat.html">Возврат</a>
                     </li>
+                    <span class="header-top__circle">&#9675;</span>
                     <li class="header-top__item header-top__item--mark">
                         <a class="header-top__link" href="optovikam.html">Оптовым покупателям</a>
                     </li>
@@ -37,9 +41,11 @@
                 <div class="logo col-md-3">                    
                     <a class="logo__link" href="#">LOGOtype</a>                                      
                 </div>                
-                <div class="search col-md-6">
-                    <input class="search__input" type="search" placeholder="Что вы ищите?" aria-label="Search">
-                    <span class="search__icon"></span>
+                <div class="search-wrapper col-md-6">
+                    <form class="search" action="">
+                        <input class="search__input" type="search" placeholder="Что вы ищите?" aria-label="Search">
+                        <button class="search__icon"></button>
+                    </form>  
                 </div>
                 <ul class="user-list col-md-3">                                     
                     <li class="user-list__item">
@@ -50,12 +56,12 @@
                             
                         </sup>
                     </li>
-                    <li class="user-list__item q2">
+                    <li class="user-list__item">
                         <a href="#" class="user-list__link color-link">
                             <img class="user-list__icon" src="image/img/heart-icon.png" width="27p" height="27" alt="">                            
                         </a>
                     </li>
-                    <li class="user-list__item q3">
+                    <li class="user-list__item">
                         <a href="#" class="user-list__link color-link">
                             <img class="user-list__icon" src="image/img/shopping-cart.png" width="27p" height="27" alt="">                            
                         </a>
@@ -64,36 +70,42 @@
             </div>
             
         </div>
-        <nav class="header-nav container">                       
-            <div class="catalog-wrap">
-                <a class="catalog__link dropdown-list" href="catalog.html">
-                    <ul class="catalog__list">
-                        <li class="catalog__item">
-
+        <nav class="header-nav">
+            <div class="header-nav-inner container">
+                <div class="navigation row">
+                    <div class="catalog-list-wrapper col-md-3">
+                        <div class="catalog-button button">
+                            <a class="catalog__link dropdown-list" href="catalog.html">
+                                <ul class="catalog__list">
+                                    <li class="catalog__item">
+        
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>                        
+                    </div>
+                    <ul class="header-nav__list site-list col-md-9">
+                        <li class="site-list__item">
+                            <a class="site-list__link site-link" href="about.html">О компании</a>
+                        </li>
+                        <li class="site-list__item">
+                            <a class="site-list__link site-link" href="discount.html">Акции</a>
+                        </li>
+                        <li class="site-list__item">
+                            <a class="site-list__link site-link" href="news.html">Новости</a>
+                        </li>
+                        <li class="site-list__item">
+                            <a class="site-list__link site-link" href="blog.html">Блог</a>
+                        </li>
+                        <li class="site-list__item">
+                            <a class="site-list__link site-link" href="experts.html">Эксперты</a>
+                        </li>
+                        <li class="site-list__item">
+                            <a class="site-list__link site-link" href="contacts.html">Контакты</a>
                         </li>
                     </ul>
-                </a>
+                </div>
             </div>
-            <ul class="header-nav__list site-list">
-                <li class="site-list__item">
-                    <a class="site-list__link" href="about.html">О компании</a>
-                </li>
-                <li class="site-list__item">
-                    <a class="site-list__link" href="discount.html">Акции</a>
-                </li>
-                <li class="site-list__item">
-                    <a class="site-list__link" href="news.html">Новости</a>
-                </li>
-                <li class="site-list__item site-list__item--active">
-                    <a class="site-list__link" href="blog.html">Блог</a>
-                </li>
-                <li class="site-list__item">
-                    <a class="site-list__link" href="experts.html">Эксперты</a>
-                </li>
-                <li class="site-list__item">
-                    <a class="site-list__link" href="contacts.html">Контакты</a>
-                </li>
-            </ul> 
         </nav>
     </header>
     <main class="page-main">       
