@@ -58,9 +58,20 @@ body {
     color: #009ee2;
 }
 
-.button {
+.fancy-bg {
     background: linear-gradient(to right, #0187c1, #3ac0ef);
     border-radius: 3px;
+}
+
+.visually-hidden {
+	position: absolute;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0;
+	border:0;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
 }
 
 /* -------- header-top styles -------- */
@@ -203,9 +214,48 @@ body {
 }
 
 .catalog-button {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.catalog__link {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+}
+.catalog__link:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+.bar-line {
+    color: #ffffff;
+    width: 100%;
+    height: 2px;
+}
+.catalog__link:before {
+    content: '\2630';
+    height: 0;
+    width: 0;
+    position: absolute;    
+    left: 35px;
+}
+
+.catalog__link::after {
+    content: '\f107';
+    font-family: FontAwesome;
+    height: 0;
+    width: 0;
+    position: absolute;
+    right: 50px;    
+    
+}
+    
+
 .site-list {    
     position: relative;
     display: flex;
@@ -215,6 +265,7 @@ body {
 }
 .site-list__item {  
     display: inline;
+    padding: 0 10px;
 }
 
 .site-link {
@@ -248,4 +299,23 @@ body {
 
 .site-list__link:hover:before {    
     transform: scale(1);
+}
+
+/* -------- section main styles -------- */
+
+.banners {
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.baners-wrapper {
+    justify-content: flex-end;
+}
+.main-banner {
+    height: 410px;    
+}
+.small-banners-wrapper {
+    padding-top: 30px;
+}
+.small-banner {
+    height: 172px;
 }
