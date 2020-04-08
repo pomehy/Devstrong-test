@@ -53,11 +53,6 @@ body {
     text-decoration: none;    
 }
 
-.hover-link {
-    text-decoration: none;
-    color: #009ee2;
-}
-
 .fancy-bg {
     background: linear-gradient(to right, #0187c1, #3ac0ef);
     border-radius: 3px;
@@ -301,12 +296,8 @@ body {
     transform: scale(1);
 }
 
-/* -------- section main styles -------- */
+/* -------- section banners styles -------- */
 
-.banners {
-    padding-top: 30px;
-    padding-bottom: 100px;
-}
 .baners-wrapper {
     justify-content: flex-end;
 }
@@ -318,4 +309,82 @@ body {
 }
 .small-banner {
     height: 172px;
+}
+
+/* -------- section hit styles -------- */
+
+.hit-content {
+    
+}
+.section-padding {
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.title-text {
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.title-link {
+    margin-left: 30px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #009ee2;    
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.aside-banner {
+    height: 450px;
+}
+
+.product-card {
+    position: relative;
+}
+
+.triggers {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 12px;
+    top:0;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 3px;
+}
+
+.triggers__discount {
+    display: block;
+    padding: 15px;
+    background-color: #00963f;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.triggers__hit {
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.product-card__button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 18px 0;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    display: block;
+    width: 100%;
+}
+.product-card__button:hover,
+.product-card__button:active,
+.product-card__button:focus {
+    color: #ffffff;
+    text-decoration: none;
+    background: linear-gradient(to right, #3ac0ef, #0187c1);
+
 }
