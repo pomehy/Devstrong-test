@@ -640,7 +640,9 @@ body {
 
 
 /* -------- section news -------- */
-
+.news {
+    background: linear-gradient(to top, #efefef 50%, transparent 50%);
+}
 
 .news-head {
     display: flex;
