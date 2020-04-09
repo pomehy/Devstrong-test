@@ -697,3 +697,57 @@ body {
 .news__content {
     padding-top: 20px;
 }
+
+/* -------- section subscribe -------- */
+
+.subscribe {
+    background-color: #efefef;
+    padding-bottom: 44px;
+}
+.subscribe__title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 35px;
+}
+.subscribe__input {
+    padding: 0 15px;
+    font-size: 18px;
+    color: #6f6f6f;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 29px 30px;
+    border: none;
+
+}
+
+.button-wrap {
+    width: 100%;
+}
+.np-right {
+    padding-right: 0;
+}
+
+.np-left {
+    padding-left: 0;
+}
+.subscribe__button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 100%;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    padding: 17px 50px;
+    
+}
+
+.subscribe__button:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background: linear-gradient(to right, #3ac0ef, #0187c1);
+}
+    
